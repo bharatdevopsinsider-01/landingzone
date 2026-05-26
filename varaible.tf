@@ -1,1 +1,0 @@
-varaible "x" {}
