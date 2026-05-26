@@ -1,0 +1,43 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform cache directory
+.terraform/
+
+# Terraform state lock file
+.terraform.lock.hcl
+
+# Terraform plan files
+*.tfplan
+*.plan
+
+# Variable files containing secrets
+*.tfvars
+*.tfvars.json
+
+# Crash log files
+crash.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Sensitive environment files
+.env
+
+# VS Code settings
+.vscode/
+
+# IntelliJ settings
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
